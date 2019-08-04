@@ -298,3 +298,58 @@ footer {
 		border-top: 10px solid #4aaaa5;
 		clear: both;
 }
+
+@media screen and (max-width: 640px) {
+ 
+	.content-area {
+	  width: 90%; 
+	}
+  
+	#header-content {
+	  width: 100%; 
+	}
+  
+	#nav-title {
+	  float: none; 
+	  width: 100%
+	}
+  
+	#nav-links {
+	  float: none;
+	  width: 100%; 
+	  text-align: center; 
+	  padding-bottom: 20px;
+	}
+  
+	#nav-title h1 {
+	  width: 100%; 
+	  text-align: center; 
+	}
+  }
+  
+  @media screen and (max-width: 768px) {
+   
+	.content-area {
+	  width: 90%; 
+	}
+  
+	#header-content {
+	  width: 100%; 
+	}
+  }
+  
+  @media screen and (max-width: 980px) {
+	.content-area {
+	  width: 90%; 
+	}
+  
+	#header-content {
+	  width: 100%; 
+	}
+  
+	#bio-image {
+	  float: none;
+	  width: 90%;
+	  align-items: center;
+	}
+  }
